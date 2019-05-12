@@ -1,0 +1,49 @@
+baseURL = "http://rabc.github.io/"
+languageCode = "en-us"
+title = "Ricardo Carvalho"
+theme = "ezhil"
+
+#pygmentsStyle = "manni"
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  subtitle = "Back-end for mobile developers (or vice-versa)"
+  Author = "Ricardo Carvalho"
+  enableSummary = true
+  useDescriptionReplaceSummary = true
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/rabc"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"

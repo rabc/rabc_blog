@@ -1,0 +1,9 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:rabc/rabc.github.io.git
+	branch = master
+
+[submodule "ezhil"]
+        path = themes/ezhil
+        url = git@github.com:rabc/rabc.github.io.git
+        branch = master
